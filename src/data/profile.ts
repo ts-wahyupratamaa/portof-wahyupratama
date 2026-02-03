@@ -23,7 +23,7 @@ export const profile = {
 export const experiences = [
   {
     id: 1,
-    role: 'Software Engineer Intern',
+    role: 'Software Engineer',
     company: 'Joki Proyek',
     type: 'Paruh Waktu',
     period: 'Apr 2025 - Saat ini',
@@ -35,8 +35,8 @@ export const experiences = [
   },
   {
     id: 2,
-    role: 'Lead Intern',
-    company: 'Satutitik.id',
+    role: 'Lead Software Engineer',
+    company: 'Satutitik Engineer',
     type: 'Paruh Waktu',
     period: 'Jun 2025 - Saat ini',
     duration: '9 bln',
@@ -49,7 +49,7 @@ export const experiences = [
   },
   {
     id: 3,
-    role: 'Machine Learning Engineer Intern',
+    role: 'Coding Camp Machine Learning Intern',
     company: 'DBS Bank',
     type: 'Magang',
     period: 'Feb 2025 - Jul 2025',
@@ -88,7 +88,7 @@ export const experiences = [
   },
   {
     id: 6,
-    role: 'Fullstack Engineer Intern',
+    role: 'SIB Fullstack Engineer Intern',
     company: 'LX International',
     type: 'Magang',
     period: 'Jul 2024 - Jan 2025',
@@ -151,7 +151,7 @@ export const projects = [
     skills: ['NextJs', 'TypeScript', 'TailwindCSS'],
     gradient: 'from-pink-400 via-rose-500 to-red-600',
     contributors: 1,
-    video: '/pomostudio.mp4',
+    video: '/pomo.mp4',
     link: 'https://pomostudio.vercel.app',
   },
   {
@@ -235,6 +235,10 @@ export const skills = [
   'Firebase',
   'Supabase',
   'N8n Automation',
+  'Power Apps',
+  'Power Automate',
+  'SharePoint',
+  'Dataverse',
   'Docker',
   'Git',
   'GitHub',

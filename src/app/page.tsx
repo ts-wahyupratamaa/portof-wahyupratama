@@ -36,13 +36,13 @@ export default function Home() {
                 <Image
                   src='/senior.jpeg'
                   alt={profile.name}
-                  width={100}
-                  height={100}
+                  fill
                   priority
                   sizes='44px'
-                  className='object-cover object-center'
+                  className='object-cover object-[35%_60%]'
                 />
               </div>
+
               <div>
                 <p className='font-semibold text-zinc-900 dark:text-white text-sm'>
                   {profile.name}
@@ -220,6 +220,15 @@ export default function Home() {
               ))}
             </div>
           </section>
+
+          <a
+            href='https://drive.google.com/file/d/1rmmN6F6g72m5V0o4zW_5SgWtWaMyebzI/view?usp=drive_link'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='flex items-center justify-center w-full p-4 mt-4 bg-zinc-50 dark:bg-zinc-700 rounded-2xl text-sm font-medium text-zinc-600 dark:text-zinc-300 hover:bg-zinc-100 dark:hover:bg-zinc-600 transition-colors'
+          >
+            View All Projects
+          </a>
 
           <section className='bg-zinc-900 dark:bg-zinc-950 rounded-2xl p-6 text-white'>
             <h2 className='text-lg font-semibold mb-3'>Let’s Collaborate</h2>
