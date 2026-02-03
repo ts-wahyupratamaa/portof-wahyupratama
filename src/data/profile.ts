@@ -1,5 +1,7 @@
 // Profile Data - Wahyu Pratama
 
+import { link } from 'fs';
+
 export const profile = {
   name: 'Wahyu Pratama',
   title: 'Software Engineer',
@@ -123,7 +125,7 @@ export const projects = [
     skills: ['Leadership', 'Project Management', 'Machine Learning', 'Next.js'],
     gradient: 'from-emerald-400 via-teal-500 to-cyan-600',
     contributors: 4,
-    video: '/gigisehat.mov',
+    video: '/gigisehat.mp4',
     link: 'https://caps-gigi-lmdw.vercel.app/',
   },
   {
@@ -136,7 +138,7 @@ export const projects = [
     skills: ['N8n', 'Automation', 'Web Development'],
     gradient: 'from-orange-400 via-rose-500 to-purple-600',
     contributors: 1,
-    video: '/satutitik.mov',
+    video: '/satutitik.mp4',
     link: 'https://satutitik.engineer/',
   },
   {
@@ -149,7 +151,7 @@ export const projects = [
     skills: ['NextJs', 'TypeScript', 'TailwindCSS'],
     gradient: 'from-pink-400 via-rose-500 to-red-600',
     contributors: 1,
-    video: '/pomostudio.mov',
+    video: '/pomostudio.mp4',
     link: 'https://pomostudio.vercel.app',
   },
   {
@@ -175,7 +177,8 @@ export const projects = [
     skills: ['React', 'UI/UX', 'Frontend'],
     gradient: 'from-violet-400 via-purple-500 to-fuchsia-600',
     contributors: 1,
-    video: '/fuzzysaw.mov',
+    video: '/fuzzysaw.mp4',
+    link: 'https://fsaw-greenflag.vercel.app/',
   },
 ];
 

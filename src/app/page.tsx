@@ -40,7 +40,7 @@ export default function Home() {
                   height={100}
                   priority
                   sizes='44px'
-                  className='object-cover object-top'
+                  className='object-cover object-center'
                 />
               </div>
               <div>
@@ -238,7 +238,6 @@ export default function Home() {
               </div>
             </div>
           </section>
-
         </main>
 
         <div className='pointer-events-none absolute inset-x-0 -bottom-2 z-40 flex justify-center'>
